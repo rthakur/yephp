@@ -13,8 +13,15 @@ Yephp is open-sourced group of classes help developer easy to code.
 
 Install using composer:
 
- composer require rthakur/yephp
+Add in composer.json
 
+```
+	{
+		"require": {
+			 "rthakur/yephp": "dev-master"
+		}
+	}
+```
 
 ## Code Examples In Core PHP
 
