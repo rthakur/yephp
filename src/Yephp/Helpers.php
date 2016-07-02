@@ -17,7 +17,7 @@ class Helpers{
 	   
 
 	
-	function ip_info($ip = NULL, $purpose = "location", $deep_detect = TRUE) {
+	function static ip_info($ip = NULL, $purpose = "location", $deep_detect = TRUE) {
 		$output = NULL;
 		
 		if (filter_var($ip, FILTER_VALIDATE_IP) === FALSE) {
